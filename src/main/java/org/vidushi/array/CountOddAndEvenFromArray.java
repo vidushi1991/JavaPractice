@@ -31,17 +31,17 @@ public class CountOddAndEvenFromArray {
         int maxNumber = array[0];
         int minNumber = array[0];
         for (int i = 0; i < array.length; i++) {
-            if (array[i] >=maxNumber){
+            if (array[i] >= maxNumber) {
                 maxNumber = array[i];
 
-            }else {
-                if (array[1]<minNumber){
+            } else {
+                if (array[1] < minNumber) {
                     minNumber = array[1];
                 }
             }
         }
-        System.out.println("The maximum number is :" +maxNumber);
-        System.out.println("The minumum number is :" +minNumber);
+        System.out.println("The maximum number is :" + maxNumber);
+        System.out.println("The minumum number is :" + minNumber);
 
 
     }
